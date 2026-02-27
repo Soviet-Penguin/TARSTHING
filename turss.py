@@ -2,6 +2,7 @@ from groq import Groq
 import queue
 import sounddevice as sd
 import json
+import os
 from vosk import Model, KaldiRecognizer
 
 # ========================
